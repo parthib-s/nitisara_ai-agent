@@ -1,0 +1,5 @@
+flask
+firebase_admin
+langchain
+python-dotenv
+requests
