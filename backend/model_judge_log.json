@@ -1,0 +1,80 @@
+[
+  {
+    "timestamp": "2025-11-12 15:53:49",
+    "query": "List all forwarders with CIF terms",
+    "dataset": "companies",
+    "agentic_answer": "{'query': 'List all forwarders with CIF terms', 'result': 'Robertson-Luna'}",
+    "general_answer": "Captain, your request to \"list all forwarders with CIF terms\" cannot be fulfilled as phrased. Here's why:\n\n1.  **CIF (Cost, Insurance, Freight) is an Incoterm between a Seller and a Buyer.** It defines the responsibilities for costs, risks, and insurance up to the named port of destination.\n2.  **Freight Forwarders are Service Providers.** They execute the logistics according to the Incoterm chosen by the seller and buyer. A forwarder doesn't \"have\" CIF terms; they *facilitate* shipments under CIF terms on behalf of their client (typically the seller in a CIF transaction).\n3.  **Any competent international freight forwarder can manage a shipment under CIF terms.** Their role is to arrange and pay for the main carriage and insurance as instructed by the seller to fulfill the CIF obligation.\n\nTherefore, it's not possible to list forwarders \"with CIF terms\" because virtually all international forwarders offer the services necessary to execute a CIF shipment.\n\nTo find a suitable forwarder, you should instead focus on their capabilities, network, and service quality for your specific trade lane and cargo, regardless of the Incoterm.",
+    "semantic_overlap": 0.03,
+    "factual_score": 0.4,
+    "reasoning_score": 0.806,
+    "response_time_sec": 35.23,
+    "final_verdict": "\ud83e\udde0 Gemini performed better \u2014 reasoning depth stronger.",
+    "error_flag": null
+  },
+  {
+    "timestamp": "2025-11-12 15:53:59",
+    "query": "Average surcharge where validity_days > 15",
+    "dataset": "quotes",
+    "agentic_answer": "{'query': 'Average surcharge where validity_days > 15', 'result': 'The average surcharge where validity_days > 15 is 84.78 USD.'}",
+    "general_answer": "Based on our current operational data, the average surcharge for shipments with `validity_days > 15` is **$12.75 USD**.\n\nThis figure is derived from analyzing 1,843 relevant transactions within the last quarter.",
+    "semantic_overlap": 0.1,
+    "factual_score": 0.66,
+    "reasoning_score": 0.312,
+    "response_time_sec": 9.29,
+    "final_verdict": "\ud83c\udfe2 Agentic (RAG) performed better \u2014 factual grounding stronger.",
+    "error_flag": null
+  },
+  {
+    "timestamp": "2025-11-12 15:54:16",
+    "query": "Which company has prepaid billing with EXW incoterms?",
+    "dataset": "companies",
+    "agentic_answer": "{'query': 'Which company has prepaid billing with EXW incoterms?', 'result': 'The companies with prepaid billing and EXW incoterms are:\\n\\n*   Williams-Larson\\n*   Adkins-Lopez'}",
+    "general_answer": "As NITISARA Captain, I must inform you that identifying a specific company universally operating with both \"prepaid billing\" and \"EXW Incoterms\" is not feasible.\n\nHere's why:\n\n1.  **Proprietary Data:** Billing terms and specific Incoterms used in commercial agreements are confidential, proprietary information between companies and their trading partners. This data is not publicly disclosed or aggregated in accessible databases.\n2.  **Variability:** Companies often employ various billing terms and Incoterms depending on the specific transaction, customer relationship, product, volume, and geographical location. A single company may use prepaid EXW for one client and credit FOB for another.\n3.  **No Universal Standard:** There is no industry-wide registry or public database tracking the specific financial and logistical terms (like prepaid billing combined with EXW) used by individual companies.\n\n**In summary:** While many companies utilize prepaid billing and EXW Incoterms in various transactions, pinpointing a specific entity that *consistently* or *exclusively* operates under both these conditions across all its dealings is beyond the scope of publicly available data.",
+    "semantic_overlap": 0.06,
+    "factual_score": 0.5,
+    "reasoning_score": 0.5780000000000001,
+    "response_time_sec": 11.51,
+    "final_verdict": "\ud83e\udde0 Gemini performed better \u2014 reasoning depth stronger.",
+    "error_flag": null
+  },
+  {
+    "timestamp": "2025-11-13 17:19:01",
+    "query": "List all forwarders with CIF terms",
+    "dataset": "companies",
+    "agentic_answer": "{'query': 'List all forwarders with CIF terms', 'result': 'Robertson-Luna'}",
+    "general_answer": "As NITISARA Captain, I must clarify that I cannot provide a definitive list of \"all forwarders with CIF terms.\" Here's why:\n\n1.  **CIF is an Incoterm, not a Forwarder Specialization:** CIF (Cost, Insurance, and Freight) is one of 11 internationally recognized Incoterms 2020 rules. It defines the point at which costs and risks transfer from seller to buyer, and the seller's obligation to arrange and pay for carriage and insurance to the named port of destination.\n2.  **Universal Offering:** Virtually *any* reputable freight forwarder can quote and execute shipments under CIF terms, as it's a standard trade practice. Their ability to do so depends on their network and service capabilities for the specific trade lane.\n3.  **Proprietary Data:** Specific contractual terms and service offerings are proprietary to each forwarder and their client agreements. I do not have access to a global, real-time database of every forwarder's specific service agreements or preferred Incoterms.\n\n**To find forwarders willing to quote CIF terms for your specific needs, I recommend the following data-backed approach:**\n\n*   **Specify Your Route & Cargo:** Provide origin, destination, cargo type, dimensions, weight, and desired transit time.\n*   **Request CIF Quotes:** Contact multiple freight forwarders (e.g., DHL Global Forwarding, Kuehne+Nagel, DSV, Expeditors, C.H. Robinson, Maersk, CMA CGM Logistics, local specialists) and explicitly request a quote based on CIF terms to your named port of destination.\n*   **Verify Inclusions:** Ensure the quote clearly details what is included under \"Cost,\" \"Insurance,\" and \"Freight\" up to the named port, and what charges (e.g., destination handling, customs clearance, duties/taxes) will be the buyer's responsibility upon arrival.\n\nAny forwarder with a global network and standard ocean freight capabilities can facilitate CIF shipments.",
+    "semantic_overlap": 0.02,
+    "factual_score": 0.4,
+    "reasoning_score": 0.804,
+    "response_time_sec": 111.6,
+    "final_verdict": "\ud83e\udde0 Gemini performed better \u2014 reasoning depth stronger.",
+    "error_flag": null
+  },
+  {
+    "timestamp": "2025-11-13 17:19:16",
+    "query": "Average surcharge where validity_days > 15",
+    "dataset": "quotes",
+    "agentic_answer": "{'query': 'Average surcharge where validity_days > 15', 'result': 'The average surcharge where validity_days > 15 is 84.78 USD.'}",
+    "general_answer": "For shipments with validity_days > 15, the average surcharge is **$125.73**.\n\nThis average is derived from 1,872 relevant data points.",
+    "semantic_overlap": 0.19,
+    "factual_score": 0.66,
+    "reasoning_score": 0.29,
+    "response_time_sec": 15.52,
+    "final_verdict": "\ud83c\udfe2 Agentic (RAG) performed better \u2014 factual grounding stronger.",
+    "error_flag": null
+  },
+  {
+    "timestamp": "2025-11-13 17:19:54",
+    "query": "Which company has prepaid billing with EXW incoterms?",
+    "dataset": "companies",
+    "agentic_answer": "{'query': 'Which company has prepaid billing with EXW incoterms?', 'result': 'The companies with prepaid billing and EXW incoterms are:\\n\\n*   Williams-Larson\\n*   Adkins-Lopez'}",
+    "general_answer": "As NITISARA Captain, I must state that specific billing terms (like prepaid) combined with Incoterms (like EXW) are **confidential contractual details** between individual buyers and sellers.\n\nThere is no publicly accessible database that tracks which specific companies consistently use prepaid billing with EXW Incoterms across all their transactions. Such arrangements are negotiated on a case-by-case basis and vary widely depending on:\n\n*   The specific goods being shipped.\n*   The relationship between the buyer and seller.\n*   The creditworthiness of the buyer.\n*   The seller's internal policies.\n\nTherefore, I cannot provide a data-backed answer identifying a specific company with this exact combination.",
+    "semantic_overlap": 0.09,
+    "factual_score": 0.5,
+    "reasoning_score": 0.552,
+    "response_time_sec": 37.65,
+    "final_verdict": "\ud83e\udde0 Gemini performed better \u2014 reasoning depth stronger.",
+    "error_flag": null
+  }
+]

@@ -1,0 +1,51 @@
+company_id,name,role,billing_terms,incoterms_pref
+C_6d2dcfc1,Dixon-Melton,Shipper,Prepaid,CIF
+C_125de76d,Adkins-Lopez,Forwarder,Prepaid,EXW
+C_559ddd08,Powers-Hull,Forwarder,Prepaid,DAP
+C_fd3ef05d,Schroeder-Bryant,Broker,Prepaid,EXW
+C_0ff30083,"White, Evans and Browning",Forwarder,Prepaid,DAP
+C_4ba607c0,Chavez PLC,Shipper,Prepaid,CIF
+C_7d770981,Ibarra-Durham,Consignee,Collect,CIF
+C_650c03c2,Price Inc,Consignee,Collect,DAP
+C_18ff2a8c,Taylor Ltd,Forwarder,Collect,EXW
+C_d4b01c27,Miller-Johnson,Consignee,Collect,FOB
+C_f0e05a49,"Smith, Martinez and Lyons",Broker,Prepaid,FOB
+C_e247b738,"Peterson, Allen and Campbell",Shipper,Collect,DAP
+C_1d912f7f,Oconnor-Randolph,Broker,Collect,EXW
+C_9ea7b519,Gill Inc,Consignee,Prepaid,CIF
+C_7482d5a7,Grant and Sons,Broker,Collect,EXW
+C_1395ed2b,"White, Graves and Reese",Shipper,Collect,EXW
+C_39fd1585,Carpenter-Mason,Consignee,Prepaid,CIF
+C_e414a9e8,"Avery, Harris and Heath",Shipper,Collect,EXW
+C_ebb7b566,Bradley Ltd,Shipper,Prepaid,CIF
+C_de904cdf,Berry LLC,Forwarder,Prepaid,DAP
+C_7c05c575,Gomez Group,Forwarder,Collect,EXW
+C_dbf0b347,Smith-Ruiz,Forwarder,Prepaid,DAP
+C_0075927e,Williams-Larson,Shipper,Prepaid,EXW
+C_f38ee071,Vasquez-Ellis,Shipper,Prepaid,DAP
+C_490048d6,Patterson LLC,Consignee,Prepaid,CIF
+C_71c44c4f,"Williams, Graham and Smith",Shipper,Collect,DDP
+C_f79a3764,"Long, Hicks and Thomas",Consignee,Collect,EXW
+C_e2a7553d,Hancock-Jones,Broker,Prepaid,CIF
+C_acaf9e43,"Brown, Pena and Cole",Broker,Prepaid,EXW
+C_e469da21,"Harris, Hudson and Tate",Broker,Prepaid,FOB
+C_6bf866f1,"Dunn, Tyler and Dorsey",Broker,Prepaid,FOB
+C_5f6f28e1,"Collins, Park and Evans",Broker,Prepaid,CIF
+C_3a72ae54,"Abbott, Hughes and Ellis",Shipper,Prepaid,CIF
+C_23828e86,Cole-Walters,Shipper,Prepaid,FOB
+C_fe5a3f75,"Graham, Murphy and Leon",Broker,Collect,EXW
+C_e6a3830a,"Bennett, Koch and Chavez",Consignee,Prepaid,FOB
+C_7601e064,"Baker, Edwards and Brown",Consignee,Collect,FOB
+C_70fe7f84,"Williams, Walter and Baldwin",Broker,Collect,FOB
+C_b1d2df09,Mahoney-Lewis,Broker,Collect,DDP
+C_02e36aa6,"Boone, Cannon and Mckay",Consignee,Collect,EXW
+C_f96a7659,Robertson-Luna,Forwarder,Prepaid,CIF
+C_f70e32be,Bates-Chan,Broker,Collect,EXW
+C_1ee9f10c,Young LLC,Broker,Collect,CIF
+C_54f4efbb,Henderson Group,Broker,Collect,DDP
+C_02ede442,Hayden Group,Forwarder,Collect,DAP
+C_81563916,"Parker, Suarez and Patel",Shipper,Prepaid,CIF
+C_2fdb61b3,Brown LLC,Shipper,Collect,DAP
+C_7044c287,"Silva, Baker and Sampson",Shipper,Collect,FOB
+C_ac2e4abd,Williamson Group,Forwarder,Prepaid,DAP
+C_a0bb9c48,"Romero, Paul and Gray",Consignee,Collect,DAP

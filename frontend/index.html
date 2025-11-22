@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NITISARA Captain AI - Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+<div id="app" class="layout">
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="brand"><i class="fas fa-ship"></i><span>NITISARA</span></div>
+            <button id="newChatBtn" class="primary-btn"><i class="fas fa-plus"></i> New Chat</button>
+        </div>
+        <div class="sidebar-section">
+            <div class="section-title"><i class="fas fa-comments"></i> Conversations</div>
+            <div id="conversationsList" class="list"></div>
+        </div>
+        <div class="sidebar-section">
+            <div class="section-title"><i class="fas fa-boxes"></i> Orders</div>
+            <div id="ordersList" class="list"></div>
+        </div>
+        <div class="sidebar-footer">
+            <div class="user-info" id="userInfo"><i class="fas fa-user-circle"></i><span id="userLabel">Guest</span></div>
+            <div class="auth-actions">
+                <button id="loginBtn" class="ghost-btn"><i class="fas fa-sign-in-alt"></i> Sign in</button>
+                <button id="logoutBtn" class="ghost-btn hidden"><i class="fas fa-sign-out-alt"></i> Sign out</button>
+            </div>
+        </div>
+    </aside>
+    <main class="main">
+        <div class="topbar">
+            <div class="title">Captain AI</div>
+            <nav class="tabs">
+                <button class="tab active" data-view="chat"><i class="fas fa-message"></i><span>Chat</span></button>
+                <button class="tab" data-view="dashboard"><i class="fas fa-chart-line"></i><span>Dashboard</span></button>
+                <button class="tab" data-view="tracking"><i class="fas fa-route"></i><span>Tracking</span></button>
+                <button class="tab" data-view="compliance"><i class="fas fa-shield-alt"></i><span>Compliance</span></button>
+                <button class="tab" data-view="esg"><i class="fas fa-leaf"></i><span>ESG</span></button>
+            </nav>
+        </div>
+        <section id="view-chat" class="view active">
+            <div id="chatBox" class="chat"></div>
+            <div class="composer">
+                <div class="input-container">
+                    <input id="msg" type="text" placeholder="Message Captain..." autocomplete="off" />
+                    <button id="sendBtn" class="send"><i class="fas fa-paper-plane"></i></button>
+                </div>
+                <div class="quick-actions">
+                    <button class="quick-btn" data-action="rate">Get Rate Quote</button>
+                    <button class="quick-btn" data-action="compliance">Check Compliance</button>
+                    <button class="quick-btn" data-action="tracking">Track Shipment</button>
+                    <button class="quick-btn" data-action="esg">ESG Report</button>
+                </div>
+            </div>
+        </section>
+        <section id="view-dashboard" class="view">
+            <div class="cards">
+                <div class="card"><div class="card-title">Active Orders</div><div id="stat-active-orders" class="card-value">0</div></div>
+                <div class="card"><div class="card-title">In Transit</div><div id="stat-in-transit" class="card-value">0</div></div>
+                <div class="card"><div class="card-title">ETA This Week</div><div id="stat-eta" class="card-value">0</div></div>
+                <div class="card"><div class="card-title">Average Response Time</div><div id="stat-rt" class="card-value">—</div></div>
+            </div>
+            <div class="panel">
+                <div class="panel-title"><i class="fas fa-clipboard-list"></i> Recent Orders</div>
+                <div id="ordersTable" class="table"></div>
+            </div>
+        </section>
+        <section id="view-tracking" class="view">
+            <div class="panel">
+                <div class="panel-title"><i class="fas fa-route"></i> Order Tracking</div>
+                <div id="trackingList" class="tracking-list"></div>
+            </div>
+        </section>
+        <section id="view-compliance" class="view">
+            <div class="panel">
+                <div class="panel-title"><i class="fas fa-shield-alt"></i> Trade Compliance</div>
+
+                <!-- Text-based compliance query -->
+                <div class="compliance-actions">
+                <input id="complianceQuery" type="text" placeholder="Describe product and destination..." />
+                <button id="complianceCheckBtn" class="primary-btn">Check</button>
+                </div>
+
+                <hr style="margin: 15px 0;">
+
+                <!-- PDF Upload Compliance -->
+                <div class="upload-section">
+                <label for="pdfUpload" class="field-label"><i class="fas fa-file-pdf"></i> Upload PDF for Compliance</label>
+                <input type="file" id="pdfUpload" accept=".pdf" />
+                <button id="pdfUploadBtn" class="primary-btn"><i class="fas fa-upload"></i> Upload & Analyze</button>
+                </div>
+                <div id="complianceResult" class="result"></div>
+                <hr style="margin: 20px 0;">
+
+               <!-- 🚢 Generate Laid Bill -->
+<div class="bill-generator">
+    <h3><i class="fas fa-file-invoice"></i> Generate Laid Bill (Bill of Lading)</h3>
+    <form id="billForm" class="bill-form">
+        <label class="field-label">Customer Name</label>
+        <input type="text" id="customer" placeholder="e.g. Effective Propants" required />
+
+        <label class="field-label">Operator</label>
+        <input type="text" id="operator" placeholder="e.g. Smooth Operators LLC" required />
+
+        <label class="field-label">Administrator</label>
+        <input type="text" id="administrator" placeholder="e.g. Super Admin" required />
+
+        <label class="field-label">Carrier</label>
+        <input type="text" id="carrier" placeholder="e.g. Mr. Bills Transportation LLC" required />
+
+        <label class="field-label">Driver Name</label>
+        <input type="text" id="driver" placeholder="e.g. Sirius Black" required />
+
+        <label class="field-label">Truck Number</label>
+        <input type="text" id="truckNumber" placeholder="e.g. T45" required />
+
+        <label class="field-label">Trailer Number</label>
+        <input type="text" id="trailerNumber" placeholder="e.g. 654" required />
+
+        <label class="field-label">Gross Weight</label>
+        <input type="text" id="gross" placeholder="e.g. 69,403 LB" required />
+
+        <label class="field-label">Tare Weight</label>
+        <input type="text" id="tare" placeholder="e.g. 25,123 LB" required />
+
+        <label class="field-label">Net Weight</label>
+        <input type="text" id="net" placeholder="e.g. 44,280 LB" required />
+
+        <label class="field-label">PO Number</label>
+        <input type="text" id="poNumber" placeholder="e.g. 11235" required />
+
+        <label class="field-label">Job Number</label>
+        <input type="text" id="jobNumber" placeholder="e.g. 11235" required />
+
+        <label class="field-label">SO Number</label>
+        <input type="text" id="soNumber" placeholder="e.g. 2468" required />
+
+        <button type="submit" class="primary-btn full">
+            <i class="fas fa-file-download"></i> Generate Laid Bill PDF
+        </button>
+    </form>
+
+    <div id="billResult" class="result"></div>
+</div>
+
+
+            </div>
+        </section>
+        <section id="view-esg" class="view">
+            <div class="panel">
+                <div class="panel-title"><i class="fas fa-leaf"></i> ESG Analytics</div>
+                <div id="esgContent" class="result"></div>
+            </div>
+        </section>
+    </main>
+    <aside class="right-panel">
+        <div class="panel">
+            <div class="panel-title"><i class="fas fa-wand-magic-sparkles"></i> Prompt & Context</div>
+            <label class="field-label">System Prompt</label>
+            <textarea id="systemPrompt" rows="6" placeholder="Guide Captain's behavior (saved locally)"></textarea>
+            <label class="field-label">Session Context</label>
+            <textarea id="sessionContext" rows="4" placeholder="Add key facts or constraints"></textarea>
+            <button id="saveContextBtn" class="primary-btn full">Save</button>
+        </div>
+        <div class="panel">
+            <div class="panel-title"><i class="fas fa-history"></i> Session Tools</div>
+            <button id="reloadHistoryBtn" class="ghost-btn full"><i class="fas fa-rotate"></i> Reload History</button>
+        </div>
+    </aside>
+</div>
+
+<!-- Auth Modal -->
+<div id="authModal" class="modal hidden">
+    <div class="modal-content">
+        <div class="modal-header"><i class="fas fa-user"></i> Sign in</div>
+        <div class="modal-body">
+            <input id="authUsername" type="text" placeholder="Username" />
+            <input id="authEmail" type="email" placeholder="Email (optional)" />
+        </div>
+        <div class="modal-footer">
+            <button id="authCancel" class="ghost-btn">Cancel</button>
+            <button id="authConfirm" class="primary-btn">Continue</button>
+        </div>
+    </div>
+    <div class="modal-backdrop"></div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>

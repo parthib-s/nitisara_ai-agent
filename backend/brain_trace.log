@@ -1,0 +1,435 @@
+2025-11-12 16:20:05,583 - Starting NITISARA Captain AI Server...
+2025-11-12 16:20:05,648 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-12 16:20:05,648 - [33mPress CTRL+C to quit[0m
+2025-11-12 16:20:05,683 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:20:10,353 - Starting NITISARA Captain AI Server...
+2025-11-12 16:20:10,372 -  * Debugger is active!
+2025-11-12 16:20:10,387 -  * Debugger PIN: 122-328-699
+2025-11-12 16:20:50,184 - API Call: GET /api/history - 200 - 0.000s
+2025-11-12 16:20:50,185 - 127.0.0.1 - - [12/Nov/2025 16:20:50] "GET /api/history?user=guest__sess_1762931703162 HTTP/1.1" 200 -
+2025-11-12 16:22:07,531 - Starting NITISARA Captain AI Server...
+2025-11-12 16:22:07,571 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-12 16:22:07,572 - [33mPress CTRL+C to quit[0m
+2025-11-12 16:22:07,599 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:22:12,679 - Starting NITISARA Captain AI Server...
+2025-11-12 16:22:12,701 -  * Debugger is active!
+2025-11-12 16:22:12,709 -  * Debugger PIN: 122-328-699
+2025-11-12 16:23:57,378 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\captain_agent.py', reloading
+2025-11-12 16:23:57,379 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\captain_agent.py', reloading
+2025-11-12 16:23:57,380 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\captain_agent.py', reloading
+2025-11-12 16:24:00,966 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:26:23,551 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:27:06,447 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:27:14,059 - Starting NITISARA Captain AI Server...
+2025-11-12 16:27:14,095 -  * Debugger is active!
+2025-11-12 16:27:14,105 -  * Debugger PIN: 122-328-699
+2025-11-12 16:27:20,519 - 127.0.0.1 - - [12/Nov/2025 16:27:20] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:27:31,534 - 
+\U0001f9e0 FOUNDATIONAL MODEL INTERVENTION
+Context: General Query
+Query: tell me which port is better mumbai or kochi based on congestion
+Response: Based on current operational data and industry reports, **Kochi Port (specifically the Vallarpadam International Container Transshipment Terminal - ICTT) generally experiences significantly less congestion compared to Mumbai Port (Jawaharlal Nehru Po...
+------------------------------------------------------------
+
+2025-11-12 16:27:34,900 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+2025-11-12 16:27:34,902 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+2025-11-12 16:27:34,904 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\http\\server.py', reloading
+2025-11-12 16:27:34,906 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\socketserver.py', reloading
+2025-11-12 16:27:38,648 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:27:44,280 - Starting NITISARA Captain AI Server...
+2025-11-12 16:27:44,298 -  * Debugger is active!
+2025-11-12 16:27:44,303 -  * Debugger PIN: 122-328-699
+2025-11-12 16:27:45,735 - 127.0.0.1 - - [12/Nov/2025 16:27:45] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:27:54,472 - 
+\U0001f9e0 FOUNDATIONAL MODEL INTERVENTION
+Context: General Query
+Query: tell me which port is better mumbai or kochi based on congestion
+Response: Based on current operational data and historical trends, **Kochi (Vallarpadam ICTT)** generally experiences significantly lower congestion compared to **Mumbai (JNPT)**.
+
+Here's a data-backed perspective:
+
+*   **Vessel Waiting Times:** Kochi's Intern...
+------------------------------------------------------------
+
+2025-11-12 16:28:12,580 - Use pytorch device_name: cpu
+2025-11-12 16:28:12,580 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-12 16:28:19,483 - Loading faiss with AVX2 support.
+2025-11-12 16:28:19,592 - Successfully loaded faiss with AVX2 support.
+2025-11-12 16:28:19,609 - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-11-12 16:28:24,275 - Performance Metric: response_time=38.28187608718872 seconds
+2025-11-12 16:28:24,276 - API Call: POST /api/chat - 200 - 38.282s
+2025-11-12 16:28:24,276 - Slow response: /api/chat took 38.282s
+2025-11-12 16:28:25,078 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:28:25,081 - 127.0.0.1 - - [12/Nov/2025 16:28:25] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:29:19,197 - 127.0.0.1 - - [12/Nov/2025 16:29:19] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:29:19,457 - Performance Metric: response_time=0.00017452239990234375 seconds
+2025-11-12 16:29:19,457 - API Call: POST /api/chat - 200 - 0.000s
+2025-11-12 16:29:19,838 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:29:19,839 - 127.0.0.1 - - [12/Nov/2025 16:29:19] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:29:23,115 - 127.0.0.1 - - [12/Nov/2025 16:29:23] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:29:23,375 - Performance Metric: response_time=0.0001289844512939453 seconds
+2025-11-12 16:29:23,375 - API Call: POST /api/chat - 200 - 0.000s
+2025-11-12 16:29:23,542 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:29:23,543 - 127.0.0.1 - - [12/Nov/2025 16:29:23] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:29:31,313 - 127.0.0.1 - - [12/Nov/2025 16:29:31] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:29:31,643 - Performance Metric: response_time=0.00011873245239257812 seconds
+2025-11-12 16:29:31,643 - API Call: POST /api/chat - 200 - 0.000s
+2025-11-12 16:29:31,841 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:29:31,842 - 127.0.0.1 - - [12/Nov/2025 16:29:31] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:29:48,419 - 127.0.0.1 - - [12/Nov/2025 16:29:48] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:29:48,681 - Performance Metric: response_time=0.0006835460662841797 seconds
+2025-11-12 16:29:48,681 - API Call: POST /api/chat - 200 - 0.001s
+2025-11-12 16:29:48,837 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:29:48,838 - 127.0.0.1 - - [12/Nov/2025 16:29:48] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:29:51,766 - 127.0.0.1 - - [12/Nov/2025 16:29:51] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:29:52,104 - Performance Metric: response_time=0.007907867431640625 seconds
+2025-11-12 16:29:52,105 - API Call: POST /api/chat - 200 - 0.008s
+2025-11-12 16:29:52,323 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:29:52,323 - 127.0.0.1 - - [12/Nov/2025 16:29:52] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:30:09,566 - 127.0.0.1 - - [12/Nov/2025 16:30:09] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:30:09,902 - 
+\U0001f9e0 FOUNDATIONAL MODEL INTERVENTION
+Context: RAG Data Query
+Query: data Which company has prepaid bill
+Response: [Error] Dataset 'g with EXW' not found or not trained yet....
+------------------------------------------------------------
+
+2025-11-12 16:30:23,551 - Performance Metric: response_time=13.648625135421753 seconds
+2025-11-12 16:30:23,551 - API Call: POST /api/chat - 200 - 13.649s
+2025-11-12 16:30:23,551 - Slow response: /api/chat took 13.649s
+2025-11-12 16:30:23,754 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:30:23,755 - 127.0.0.1 - - [12/Nov/2025 16:30:23] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:30:45,390 - 127.0.0.1 - - [12/Nov/2025 16:30:45] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:30:45,711 - Use pytorch device_name: cpu
+2025-11-12 16:30:45,711 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-12 16:30:52,636 - 
+\U0001f9e0 FOUNDATIONAL MODEL INTERVENTION
+Context: RAG Data Query
+Query: data List all forwarders with CIF terms
+Response: {'query': 'data List all forwarders with CIF terms', 'result': 'Robertson-Luna'}...
+------------------------------------------------------------
+
+2025-11-12 16:31:05,333 - Performance Metric: response_time=19.626011848449707 seconds
+2025-11-12 16:31:05,333 - API Call: POST /api/chat - 200 - 19.626s
+2025-11-12 16:31:05,333 - Slow response: /api/chat took 19.626s
+2025-11-12 16:31:05,534 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:31:05,535 - 127.0.0.1 - - [12/Nov/2025 16:31:05] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:33:58,068 - 127.0.0.1 - - [12/Nov/2025 16:33:58] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:34:01,977 - 
+\U0001f9e0 FOUNDATIONAL MODEL INTERVENTION
+Context: General Query
+Query: which is indias largest port
+Response: India's largest port by **container throughput** is the **Jawaharlal Nehru Port (JNPT)**, also known as Nhava Sheva, located in Navi Mumbai, Maharashtra.
+
+*   **Data Point:** JNPT consistently handles over 50% of India's total containerized cargo.
+* ...
+------------------------------------------------------------
+
+2025-11-12 16:34:01,981 - Use pytorch device_name: cpu
+2025-11-12 16:34:01,981 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-12 16:34:14,261 - Performance Metric: response_time=15.935274600982666 seconds
+2025-11-12 16:34:14,262 - API Call: POST /api/chat - 200 - 15.935s
+2025-11-12 16:34:14,262 - Slow response: /api/chat took 15.935s
+2025-11-12 16:34:14,365 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:34:14,366 - 127.0.0.1 - - [12/Nov/2025 16:34:14] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:34:23,173 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\evaluation.py', reloading
+2025-11-12 16:34:23,175 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\firebase_db.py', reloading
+2025-11-12 16:34:23,176 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\monitoring.py', reloading
+2025-11-12 16:34:23,177 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\rate.py', reloading
+2025-11-12 16:34:23,178 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\compliance\\__init__.py', reloading
+2025-11-12 16:34:23,178 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\compliance\\check_compliance.py', reloading
+2025-11-12 16:34:23,179 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\compliance\\extract_text.py', reloading
+2025-11-12 16:34:23,180 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\compliance\\verify_details.py', reloading
+2025-11-12 16:34:23,181 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\bill_generator.py', reloading
+2025-11-12 16:34:23,182 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\compliance.py', reloading
+2025-11-12 16:34:23,183 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\config.py', reloading
+2025-11-12 16:34:23,184 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\gemini_chain.py', reloading
+2025-11-12 16:34:23,186 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\rag_system.py', reloading
+2025-11-12 16:34:23,194 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-11-12 16:34:23,237 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\os.py', reloading
+2025-11-12 16:34:23,244 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\dotenv\\__init__.py', reloading
+2025-11-12 16:34:23,245 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_google_genai\\__init__.py', reloading
+2025-11-12 16:34:23,247 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\dotenv\\main.py', reloading
+2025-11-12 16:34:23,248 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_google_genai\\_enums.py', reloading
+2025-11-12 16:34:23,249 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_google_genai\\chat_models.py', reloading
+2025-11-12 16:34:23,250 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-11-12 16:34:23,251 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_google_genai\\embeddings.py', reloading
+2025-11-12 16:34:23,253 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\proto\\__init__.py', reloading
+2025-11-12 16:34:23,254 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\flask\\app.py', reloading
+2025-11-12 16:34:23,255 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\flask\\blueprints.py', reloading
+2025-11-12 16:34:23,255 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\__init__.py', reloading
+2025-11-12 16:34:23,256 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-11-12 16:34:23,257 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\language_models\\chat_models.py', reloading
+2025-11-12 16:34:23,258 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-11-12 16:34:23,259 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\messages\\__init__.py', reloading
+2025-11-12 16:34:23,259 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-11-12 16:34:23,260 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\runnables\\__init__.py', reloading
+2025-11-12 16:34:23,261 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\utils\\__init__.py', reloading
+2025-11-12 16:34:23,262 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2025-11-12 16:34:23,263 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\utils\\utils.py', reloading
+2025-11-12 16:34:23,264 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-11-12 16:34:23,264 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\__init__.py', reloading
+2025-11-12 16:34:23,265 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\firebase_admin\\__init__.py', reloading
+2025-11-12 16:34:23,266 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_google_genai\\_common.py', reloading
+2025-11-12 16:34:23,266 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\firebase_admin\\credentials.py', reloading
+2025-11-12 16:34:23,267 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\_migration.py', reloading
+2025-11-12 16:34:23,268 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic_core\\__init__.py', reloading
+2025-11-12 16:34:23,269 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\firebase_admin\\db.py', reloading
+2025-11-12 16:34:23,270 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic_core\\core_schema.py', reloading
+2025-11-12 16:34:23,271 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\firebase_admin\\_utils.py', reloading
+2025-11-12 16:34:23,272 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\aliases.py', reloading
+2025-11-12 16:34:23,273 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\config.py', reloading
+2025-11-12 16:34:23,274 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\errors.py', reloading
+2025-11-12 16:34:23,275 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\fields.py', reloading
+2025-11-12 16:34:23,277 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\functional_validators.py', reloading
+2025-11-12 16:34:23,279 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\main.py', reloading
+2025-11-12 16:34:23,280 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\networks.py', reloading
+2025-11-12 16:34:23,282 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\types.py', reloading
+2025-11-12 16:34:23,284 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\deprecated\\tools.py', reloading
+2025-11-12 16:34:23,286 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-11-12 16:34:23,287 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\_internal\\_repr.py', reloading
+2025-11-12 16:34:23,288 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-11-12 16:34:23,289 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\_internal\\_decorators.py', reloading
+2025-11-12 16:34:23,290 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\_internal\\_model_construction.py', reloading
+2025-11-12 16:34:23,291 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-11-12 16:34:23,292 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\_internal\\_utils.py', reloading
+2025-11-12 16:34:23,293 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-11-12 16:34:23,295 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-11-12 16:34:23,296 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\annotated_types\\__init__.py', reloading
+2025-11-12 16:34:23,297 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\_internal\\_internal_dataclass.py', reloading
+2025-11-12 16:34:23,298 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\flask\\sansio\\blueprints.py', reloading
+2025-11-12 16:34:23,299 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-11-12 16:34:23,300 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\pydantic\\_internal\\_generate_schema.py', reloading
+2025-11-12 16:34:23,301 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-11-12 16:34:23,302 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+2025-11-12 16:34:23,304 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\_api\\__init__.py', reloading
+2025-11-12 16:34:23,304 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-11-12 16:34:23,305 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\caches.py', reloading
+2025-11-12 16:34:23,306 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\callbacks\\__init__.py', reloading
+2025-11-12 16:34:23,307 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\language_models\\base.py', reloading
+2025-11-12 16:34:23,308 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\prompt_values.py', reloading
+2025-11-12 16:34:23,309 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\datastructures\\file_storage.py', reloading
+2025-11-12 16:34:23,310 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-11-12 16:34:23,310 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\rate_limiters.py', reloading
+2025-11-12 16:34:23,311 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\datastructures\\mixins.py', reloading
+2025-11-12 16:34:23,312 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\runnables\\base.py', reloading
+2025-11-12 16:34:23,313 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2025-11-12 16:34:23,314 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\runnables\\utils.py', reloading
+2025-11-12 16:34:23,315 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\_api\\beta_decorator.py', reloading
+2025-11-12 16:34:23,317 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\load\\serializable.py', reloading
+2025-11-12 16:34:23,318 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\messages\\base.py', reloading
+2025-11-12 16:34:23,319 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\messages\\human.py', reloading
+2025-11-12 16:34:23,320 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\messages\\system.py', reloading
+2025-11-12 16:34:23,321 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\language_models\\__init__.py', reloading
+2025-11-12 16:34:23,322 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\messages\\utils.py', reloading
+2025-11-12 16:34:23,324 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\callbacks\\base.py', reloading
+2025-11-12 16:34:23,325 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\documents\\__init__.py', reloading
+2025-11-12 16:34:23,326 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\_api\\deprecation.py', reloading
+2025-11-12 16:34:23,328 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\generative_service.py', reloading
+2025-11-12 16:34:23,331 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\safety.py', reloading
+2025-11-12 16:34:23,332 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\proto\\enums.py', reloading
+2025-11-12 16:34:23,333 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\proto\\fields.py', reloading
+2025-11-12 16:34:23,335 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\proto\\message.py', reloading
+2025-11-12 16:34:23,336 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\proto\\modules.py', reloading
+2025-11-12 16:34:23,349 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\runnables\\config.py', reloading
+2025-11-12 16:34:23,354 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_community\\vectorstores\\__init__.py', reloading
+2025-11-12 16:34:23,355 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\embeddings\\__init__.py', reloading
+2025-11-12 16:34:23,356 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_community\\embeddings\\__init__.py', reloading
+2025-11-12 16:34:23,357 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain\\chains\\__init__.py', reloading
+2025-11-12 16:34:23,359 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_community\\embeddings\\huggingface.py', reloading
+2025-11-12 16:34:23,360 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain\\_api\\__init__.py', reloading
+2025-11-12 16:34:23,361 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain\\_api\\module_import.py', reloading
+2025-11-12 16:34:23,362 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\vectorstores\\__init__.py', reloading
+2025-11-12 16:34:23,364 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_community\\document_loaders\\__init__.py', reloading
+2025-11-12 16:34:23,364 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_community\\vectorstores\\faiss.py', reloading
+2025-11-12 16:34:23,366 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_community\\document_loaders\\csv_loader.py', reloading
+2025-11-12 16:34:23,367 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\vectorstores\\base.py', reloading
+2025-11-12 16:34:23,368 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_community\\document_loaders\\base.py', reloading
+2025-11-12 16:34:23,368 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\retrievers.py', reloading
+2025-11-12 16:34:23,369 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\document_loaders\\__init__.py', reloading
+2025-11-12 16:34:23,370 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\embeddings\\embeddings.py', reloading
+2025-11-12 16:34:23,370 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\document_loaders\\base.py', reloading
+2025-11-12 16:34:23,371 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\langchain_core\\documents\\base.py', reloading
+2025-11-12 16:34:28,238 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:34:34,312 - Starting NITISARA Captain AI Server...
+2025-11-12 16:34:34,343 -  * Debugger is active!
+2025-11-12 16:34:34,355 -  * Debugger PIN: 122-328-699
+2025-11-12 16:38:14,312 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\config.py', reloading
+2025-11-12 16:38:14,313 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\config.py', reloading
+2025-11-12 16:38:17,075 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:38:21,988 - Starting NITISARA Captain AI Server...
+2025-11-12 16:38:22,016 -  * Debugger is active!
+2025-11-12 16:38:22,024 -  * Debugger PIN: 122-328-699
+2025-11-12 16:38:23,482 - API Call: GET /api/history - 200 - 0.000s
+2025-11-12 16:38:23,483 - 127.0.0.1 - - [12/Nov/2025 16:38:23] "GET /api/history?user=guest__sess_1762931703162 HTTP/1.1" 200 -
+2025-11-12 16:38:32,000 - 127.0.0.1 - - [12/Nov/2025 16:38:32] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:39:05,097 - API Call: GET /api/history - 200 - 0.000s
+2025-11-12 16:39:05,098 - 127.0.0.1 - - [12/Nov/2025 16:39:05] "GET /api/history?user=guest__sess_1762931703162 HTTP/1.1" 200 -
+2025-11-12 16:39:10,786 - 127.0.0.1 - - [12/Nov/2025 16:39:10] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:39:11,045 - Performance Metric: response_time=0.0001354217529296875 seconds
+2025-11-12 16:39:11,045 - API Call: POST /api/chat - 200 - 0.000s
+2025-11-12 16:39:11,045 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:39:11,045 - 127.0.0.1 - - [12/Nov/2025 16:39:11] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:39:13,290 - 127.0.0.1 - - [12/Nov/2025 16:39:13] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:40:35,880 - Starting NITISARA Captain AI Server...
+2025-11-12 16:40:35,922 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-12 16:40:35,922 - [33mPress CTRL+C to quit[0m
+2025-11-12 16:40:35,941 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:40:40,399 - Starting NITISARA Captain AI Server...
+2025-11-12 16:40:40,422 -  * Debugger is active!
+2025-11-12 16:40:40,431 -  * Debugger PIN: 122-328-699
+2025-11-12 16:40:40,512 - API Call: GET /api/history - 200 - 0.000s
+2025-11-12 16:40:40,514 - 127.0.0.1 - - [12/Nov/2025 16:40:40] "GET /api/history?user=guest__sess_1762945747167 HTTP/1.1" 200 -
+2025-11-12 16:40:51,595 - 127.0.0.1 - - [12/Nov/2025 16:40:51] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:40:51,841 - Performance Metric: response_time=0.0007026195526123047 seconds
+2025-11-12 16:40:51,841 - API Call: POST /api/chat - 200 - 0.001s
+2025-11-12 16:40:51,841 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:40:51,842 - 127.0.0.1 - - [12/Nov/2025 16:40:51] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:40:56,636 - 127.0.0.1 - - [12/Nov/2025 16:40:56] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:40:56,879 - Performance Metric: response_time=0.00015306472778320312 seconds
+2025-11-12 16:40:56,879 - API Call: POST /api/chat - 200 - 0.000s
+2025-11-12 16:40:56,880 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:40:56,880 - 127.0.0.1 - - [12/Nov/2025 16:40:56] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:41:07,288 - 127.0.0.1 - - [12/Nov/2025 16:41:07] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:41:11,856 - 
+\U0001f9e0 FOUNDATIONAL MODEL INTERVENTION
+Context: General Query
+Query: tell indias pm
+Response: The current Prime Minister of India is **Shri Narendra Modi**....
+------------------------------------------------------------
+
+2025-11-12 16:41:11,861 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\foundational_config.py', reloading
+2025-11-12 16:41:15,906 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:41:20,652 - Starting NITISARA Captain AI Server...
+2025-11-12 16:41:20,674 -  * Debugger is active!
+2025-11-12 16:41:20,683 -  * Debugger PIN: 122-328-699
+2025-11-12 16:41:28,523 - 127.0.0.1 - - [12/Nov/2025 16:41:28] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:41:34,688 - 
+\U0001f9e0 FOUNDATIONAL MODEL INTERVENTION
+Context: General Query
+Query: tell indias pm
+Response: The current Prime Minister of India is **Shri Narendra Modi**....
+------------------------------------------------------------
+
+2025-11-12 16:41:35,933 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\torch\\cuda\\__init__.py', reloading
+2025-11-12 16:41:35,935 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\torch\\__init__.py', reloading
+2025-11-12 16:41:35,937 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\sentence_transformers\\util.py', reloading
+2025-11-12 16:41:35,939 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\sentence_transformers\\backend.py', reloading
+2025-11-12 16:41:35,941 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\sentence_transformers\\__init__.py', reloading
+2025-11-12 16:41:35,955 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\threading.py', reloading
+2025-11-12 16:41:36,416 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\torch\\nn\\functional.py', reloading
+2025-11-12 16:41:36,686 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\torch\\nn\\modules\\rnn.py', reloading
+2025-11-12 16:41:36,828 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\torch\\functional.py', reloading
+2025-11-12 16:41:39,703 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:41:43,521 - Starting NITISARA Captain AI Server...
+2025-11-12 16:41:43,538 -  * Debugger is active!
+2025-11-12 16:41:43,545 -  * Debugger PIN: 122-328-699
+2025-11-12 16:42:00,500 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\config.py', reloading
+2025-11-12 16:42:00,506 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\config.py', reloading
+2025-11-12 16:42:00,506 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\config.py', reloading
+2025-11-12 16:42:03,274 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:42:07,683 - Starting NITISARA Captain AI Server...
+2025-11-12 16:42:07,707 -  * Debugger is active!
+2025-11-12 16:42:07,715 -  * Debugger PIN: 122-328-699
+2025-11-12 16:42:07,797 - 127.0.0.1 - - [12/Nov/2025 16:42:07] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:42:09,090 - 
+\U0001f9e0 FOUNDATIONAL MODEL INTERVENTION
+Context: General Query
+Query: tell indias pm
+Response: The current Prime Minister of India is **Shri Narendra Modi**....
+------------------------------------------------------------
+
+2025-11-12 16:42:11,082 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\torch\\library.py', reloading
+2025-11-12 16:42:11,084 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\torch\\export\\custom_ops.py', reloading
+2025-11-12 16:42:11,149 - FakeTensor cache stats:
+2025-11-12 16:42:11,149 -   cache_hits: 0
+2025-11-12 16:42:11,150 -   cache_misses: 0
+2025-11-12 16:42:13,759 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:42:19,253 - Starting NITISARA Captain AI Server...
+2025-11-12 16:42:19,278 -  * Debugger is active!
+2025-11-12 16:42:19,288 -  * Debugger PIN: 122-328-699
+2025-11-12 16:42:20,869 - 
+\U0001f9e0 FOUNDATIONAL MODEL INTERVENTION
+Context: General Query
+Query: tell indias pm
+Response: The current Prime Minister of India is **Shri Narendra Modi**....
+------------------------------------------------------------
+
+2025-11-12 16:42:22,453 - API Call: GET /api/history - 200 - 0.000s
+2025-11-12 16:42:22,454 - 127.0.0.1 - - [12/Nov/2025 16:42:22] "GET /api/history?user=guest__sess_1762945747167 HTTP/1.1" 200 -
+2025-11-12 16:42:23,094 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\torch\\_prims\\__init__.py', reloading
+2025-11-12 16:42:23,100 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\torch\\_library\\custom_ops.py', reloading
+2025-11-12 16:42:23,678 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\torch\\_library\\fake_impl.py', reloading
+2025-11-12 16:42:23,955 - FakeTensor cache stats:
+2025-11-12 16:42:23,956 -   cache_hits: 0
+2025-11-12 16:42:23,958 -   cache_misses: 0
+2025-11-12 16:42:26,808 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:42:31,402 - Starting NITISARA Captain AI Server...
+2025-11-12 16:42:31,426 -  * Debugger is active!
+2025-11-12 16:42:31,434 -  * Debugger PIN: 122-328-699
+2025-11-12 16:42:36,000 - 127.0.0.1 - - [12/Nov/2025 16:42:36] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:42:36,262 - Performance Metric: response_time=0.0006878376007080078 seconds
+2025-11-12 16:42:36,262 - API Call: POST /api/chat - 200 - 0.001s
+2025-11-12 16:42:36,853 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:42:36,854 - 127.0.0.1 - - [12/Nov/2025 16:42:36] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:42:40,389 - 127.0.0.1 - - [12/Nov/2025 16:42:40] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:42:40,709 - Performance Metric: response_time=0.0001518726348876953 seconds
+2025-11-12 16:42:40,709 - API Call: POST /api/chat - 200 - 0.000s
+2025-11-12 16:42:40,838 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:42:40,839 - 127.0.0.1 - - [12/Nov/2025 16:42:40] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:42:42,724 - 127.0.0.1 - - [12/Nov/2025 16:42:42] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:42:43,078 - Performance Metric: response_time=0.00015282630920410156 seconds
+2025-11-12 16:42:43,078 - API Call: POST /api/chat - 200 - 0.000s
+2025-11-12 16:42:43,303 - Performance Metric: llm_judge_score=5.0 score
+2025-11-12 16:42:43,304 - 127.0.0.1 - - [12/Nov/2025 16:42:43] "POST /api/chat HTTP/1.1" 200 -
+2025-11-12 16:42:51,664 - 127.0.0.1 - - [12/Nov/2025 16:42:51] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:42:57,247 - 
+\U0001f9e0 FOUNDATIONAL MODEL INTERVENTION
+Context: General Query
+Query: who is narendra modi
+Response: Narendra Modi is the current Prime Minister of India. He assumed office in May 2014 and is a prominent leader of the Bharatiya Janata Party (BJP).
+
+His administration's policies have significant implications for India's trade agreements, infrastructu...
+------------------------------------------------------------
+
+2025-11-12 16:43:01,460 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\functools.py', reloading
+2025-11-12 16:43:01,526 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\torch\\_prims\\debug_prims.py', reloading
+2025-11-12 16:43:01,698 - FakeTensor cache stats:
+2025-11-12 16:43:01,698 -   cache_hits: 0
+2025-11-12 16:43:01,699 -   cache_misses: 0
+2025-11-12 16:43:04,462 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:43:09,946 - Starting NITISARA Captain AI Server...
+2025-11-12 16:43:09,965 -  * Debugger is active!
+2025-11-12 16:43:09,973 -  * Debugger PIN: 122-328-699
+2025-11-12 16:43:15,183 - 127.0.0.1 - - [12/Nov/2025 16:43:15] "OPTIONS /api/chat HTTP/1.1" 200 -
+2025-11-12 16:43:18,659 - 
+\U0001f9e0 FOUNDATIONAL MODEL INTERVENTION
+Context: General Query
+Query: who is narendra modi
+Response: Narendra Modi is the **current Prime Minister of India**, serving since May 2014.
+
+He is a prominent leader of the Bharatiya Janata Party (BJP). His administration has focused on economic reforms, infrastructure development (including ports and logis...
+------------------------------------------------------------
+
+2025-11-12 16:43:23,057 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\.virtualenvs\\medical_chatbot-BcbcUkR5\\Lib\\site-packages\\torch\\compiler\\config.py', reloading
+2025-11-12 16:43:26,200 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:43:31,609 - Starting NITISARA Captain AI Server...
+2025-11-12 16:43:31,630 -  * Debugger is active!
+2025-11-12 16:43:31,636 -  * Debugger PIN: 122-328-699
+2025-11-12 16:44:16,419 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\captain_agent.py', reloading
+2025-11-12 16:44:16,420 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\captain_agent.py', reloading
+2025-11-12 16:44:16,421 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\captain_agent.py', reloading
+2025-11-12 16:44:19,617 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:44:25,125 - Starting NITISARA Captain AI Server...
+2025-11-12 16:44:25,145 -  * Debugger is active!
+2025-11-12 16:44:25,157 -  * Debugger PIN: 122-328-699
+2025-11-12 16:44:27,089 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\captain_agent.py', reloading
+2025-11-12 16:44:27,095 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\captain_agent.py', reloading
+2025-11-12 16:44:27,095 -  * Detected change in 'C:\\Users\\Parthib Sarkar\\Downloads\\nitisara2\\nitisara_ai-agent\\backend\\captain_agent.py', reloading
+2025-11-12 16:44:29,839 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:44:40,753 -  * Restarting with watchdog (windowsapi)
+2025-11-12 16:45:00,994 -  * Restarting with watchdog (windowsapi)
+2025-11-12 20:56:16,352 -  * Restarting with watchdog (windowsapi)
